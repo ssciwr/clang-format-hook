@@ -11,7 +11,7 @@ repos:
 - repo: https://github.com/ssciwr/clang-format-precommit
   rev: v12.0.1
   hooks:
-  - pre-commit
+  - id: clang-format
 ```
 
 You can override any hook setting if you need to. If you override `args:`, be
