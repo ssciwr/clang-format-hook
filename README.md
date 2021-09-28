@@ -17,3 +17,8 @@ repos:
 You can override any hook setting if you need to. If you override `args:`, be
 sure you include `-i`. If you override types, be sure to use `types_or:`. See
 the pre-commit docs for more information.
+
+## Making a new release
+
+To make a new release, update `setup.py`'s pin, as well as this readme, then
+make a GitHub release creating a new tag of the form `v<version>`.
