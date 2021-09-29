@@ -8,7 +8,7 @@ To use on a repository containing C, C++, or C# files and containing a `.clang-f
 
 ```yml
 repos:
-- repo: https://github.com/ssciwr/clang-format-precommit
+- repo: https://github.com/ssciwr/clang-format-hook
   rev: v12.0.1
   hooks:
   - id: clang-format
