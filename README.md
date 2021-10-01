@@ -9,7 +9,7 @@ To use on a repository containing C, C++, or C# files and containing a `.clang-f
 ```yml
 repos:
 - repo: https://github.com/ssciwr/clang-format-hook
-  rev: v12.0.1
+  rev: v13.0.0
   hooks:
   - id: clang-format
 ```
