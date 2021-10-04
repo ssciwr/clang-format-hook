@@ -4,5 +4,5 @@
   entry: clang-format
   args: [-style=file, -i]
   language: python
-  types_or: [c++, c, c#]
-  minimum_pre_commit_version: 2.9.0
+  types_or: [c++, c, c#, cuda]
+  minimum_pre_commit_version: 2.9.2
