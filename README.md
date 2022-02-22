@@ -1,8 +1,9 @@
 # clang-format pre-commit hook
 
-For a short period of time, this repository contained a [pre-commit](https://pre-commit.com) hook to apply
+This repository contains a [pre-commit](https://pre-commit.com) hook to apply
 [clang-format](https://clang.llvm.org/docs/ClangFormat.html) using
 [wheels](https://github.com/ssciwr/clang-format-wheel).
 
-The hook can now be found at [https://github.com/pre-commit/mirrors-clang-format](https://github.com/pre-commit/mirrors-clang-format).
-Please use it from there - this repository will be archived in the near future.
+In contrast to [https://github.com/pre-commit/mirrors-clang-format](https://github.com/pre-commit/mirrors-clang-format),
+this repository provides backports of older versions of clang-format.
+Use this if you need to stick to a specific major/minor version of clang-format.
