@@ -1,5 +1,5 @@
 - id: clang-format
-  name: clang-format (moved to https://github.com/pre-commit/mirrors-clang-format)
+  name: clang-format
   description: clang-format your C, C++, or C# code
   entry: clang-format
   args: [-style=file, -i]
